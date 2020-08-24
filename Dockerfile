@@ -1,4 +1,4 @@
-FROM  node:6.9
+FROM  node:10.16.3
 EXPOSE 3000
 
 WORKDIR /app
@@ -7,4 +7,4 @@ RUN npm install
 
 ADD . /app
 
-CMD ["node","/app/bin/www"]
+CMD ["node","bin/www"]

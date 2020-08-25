@@ -17,12 +17,12 @@ workflows:
   build_and_push_image:
     jobs:
       - aws-ecr/build-and-push-image:
-          account-url: 871206902600.dkr.ecr.us-east-2.amazonaws.com
-          aws-access-key-id: AKIA4VV72LNEBMMEA6VH
-          aws-secret-access-key: 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
+          account-url: AWS_ECR_ACCOUNT_URL
+          aws-access-key-id: AWS_ACCESS_KEY_ID
+          aws-secret-access-key: AWS_SECRET_ACCESS_KEY
           create-repo: true
           dockerfile: .
           path: .
-          region: us-east-2
+          region: AWS_REGION
           repo: bdb-basic-service-nodejs-test
           tag: "$CIRCLE_SHA1"

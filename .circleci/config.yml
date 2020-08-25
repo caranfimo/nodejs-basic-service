@@ -31,7 +31,7 @@ jobs:
           org-name: caranfimo
       - run:
           name: Local invoke add function
-          command: serverless invoke local --function index --path 'sampleData/data.json'
+          command: serverless invoke local --function index --path './sampleData/data.json'
       - run:
           command: serverless deploy -v
           name: deploy

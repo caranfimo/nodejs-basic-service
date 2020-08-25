@@ -2,7 +2,7 @@ service: serverless-cci-example
 # app and org for use with dashboard.serverless.com
 org: caranfimo
 app: basic-service-nodejs
-name: aws-lambda-starter
+name: basic-service-nodejs
 component: aws-lambda
 
 provider:

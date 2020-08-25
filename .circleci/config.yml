@@ -27,7 +27,7 @@ jobs:
       - node/install-packages
       - serverless/setup:
           provider: AWS
-          app-name: aws-lambda-starter
+          app-name: basic-service-nodejs
           org-name: caranfimo
       - run:
           command: serverless deploy -v

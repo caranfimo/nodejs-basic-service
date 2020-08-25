@@ -1,7 +1,9 @@
 service: serverless-cci-example
 # app and org for use with dashboard.serverless.com
-app: serverless-framework-orb
-org: circleci
+org: caranfimo
+app: basic-service-nodejs
+name: aws-lambda-starter
+component: aws-lambda
 
 provider:
   name: aws

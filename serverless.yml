@@ -11,14 +11,14 @@ provider:
 
 functions:
   index:
-    handler: app.app
+    handler: routes/index.router
     events:
       - http:
           path: /
           method: get
 
   user:
-    handler: app.app
+    handler: routes/users.router
     events:
       - http:
           path: /users

@@ -27,8 +27,8 @@ jobs:
       - node/install-packages
       - serverless/setup:
           provider: AWS
-          app-name: serverless-framework-orb
-          org-name: circleci
+          app-name: aws-lambda-starter
+          org-name: caranfimo
       - run:
           command: serverless deploy -v
           name: deploy

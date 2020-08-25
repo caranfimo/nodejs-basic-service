@@ -51,7 +51,6 @@ workflows:
           filters:
             branches:
               only: master
-          context: serverless-framework-orb-testing
       - aws-ecr/build-and-push-image:
           account-url: AWS_ECR_ACCOUNT_URL
           aws-access-key-id: AWS_ACCESS_KEY_ID

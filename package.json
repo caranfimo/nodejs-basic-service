@@ -12,7 +12,7 @@
     "express": "^4.16.4",
     "http-errors": "~1.6.3",
     "mocha": "^8.1.1",
-    "morgan": "~1.9.1",
+    "morgan": "~1.10.0",
     "pug": "2.0.0-beta11",
     "supertest": "^4.0.2"
   }
